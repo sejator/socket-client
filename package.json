@@ -1,0 +1,27 @@
+{
+  "name": "socket-client",
+  "version": "1.0.0",
+  "description": "Aplikasi socket.io client",
+  "main": "index.ts",
+  "scripts": {
+    "start": "node build/index.js",
+    "dev": "ts-node src/index.ts",
+    "build": "rimraf ./build && tsc && cp env ./build/.env && cp package.json ./build/package.json",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "socket.io",
+    "websocket"
+  ],
+  "author": "Sejator Dev",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "1.7.9",
+    "dotenv": "16.4.7",
+    "socket.io-client": "4.8.1"
+  },
+  "devDependencies": {
+    "rimraf": "^6.0.1",
+    "ts-node": "^10.9.2"
+  }
+}

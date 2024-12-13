@@ -1,0 +1,10 @@
+# server websocket
+SOCKET_URL="xxx"
+SOCKET_TOKEN="xxx"
+SOCKET_CHANNEL="xxx"
+SOCKET_LOCATION="RESTO KIPUTIH"
+# untuk notifikasi telegram
+BOT_TOKEN="xxx"
+CHAT_ID="xxx"
+# url lokal tujuan
+CLIENT_URL="xxx"
